@@ -13,4 +13,3 @@ def sign_up():
 @auth.route('/buy')
 def buy():
     return render_template("premium.html")
-
